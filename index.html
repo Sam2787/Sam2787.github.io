@@ -15,8 +15,10 @@
 		/* Read only section. Source panel edits to the content of this style tag will not be persisted */
         [ni-control-id='2'] { --ni-background: rgba(255,255,255,1); --ni-border-width: 0px 0px 0px 0px; height: 768px; --ni-margin: 0px 0px 0px 0px; --ni-padding: 30px 30px 30px 30px; width: 1024px; --ni-max-width: none; }
         .ni-front-panel-wrapper { min-width: 1024px; }
-        [ni-control-id='17'] { --ni-border-width: 0px 0px 0px 0px; --ni-foreground-color: rgba(43,48,51,1); height: 152px; --ni-overflow-x: hidden; left: 68px; --ni-margin: 0px 0px 0px 0px; --ni-padding: 0px 0px 0px 0px; --ni-text-align-as-flex: flex-start; --ni-text-align: left; top: 132px; --ni-overflow-y: auto; width: 424px; font-size: 12px; font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; }
-        [ni-control-id='18'] { --ni-border-width: 0px 0px 0px 0px; --ni-foreground-color: rgba(43,48,51,1); height: auto; left: 68px; --ni-margin: 0px 0px 0px 0px; --ni-padding: 0px 0px 0px 0px; top: 112px; width: auto; font-size: 12px; font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; }
+        [ni-control-id='17'] { --ni-border-width: 0px 0px 0px 0px; --ni-foreground-color: rgba(43,48,51,1); height: 152px; --ni-overflow-x: hidden; left: 68px; --ni-margin: 0px 0px 0px 0px; --ni-padding: 0px 0px 0px 0px; --ni-text-align-as-flex: flex-start; --ni-text-align: left; top: 260px; --ni-overflow-y: auto; width: 424px; font-size: 12px; font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; }
+        [ni-control-id='18'] { --ni-border-width: 0px 0px 0px 0px; --ni-foreground-color: rgba(43,48,51,1); height: auto; left: 68px; --ni-margin: 0px 0px 0px 0px; --ni-padding: 0px 0px 0px 0px; top: 240px; width: auto; font-size: 12px; font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; }
+        [ni-control-id='19'] { --ni-border-width: 0px 0px 0px 0px; --ni-foreground-color: rgba(43,48,51,1); height: 120px; --ni-overflow-x: hidden; left: 68px; --ni-margin: 0px 0px 0px 0px; --ni-padding: 0px 0px 0px 0px; --ni-text-align-as-flex: flex-start; --ni-text-align: left; top: 100px; --ni-overflow-y: auto; width: 392px; font-size: 12px; font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; }
+        [ni-control-id='20'] { --ni-border-width: 0px 0px 0px 0px; --ni-foreground-color: rgba(43,48,51,1); height: auto; left: 68px; --ni-margin: 0px 0px 0px 0px; --ni-padding: 0px 0px 0px 0px; top: 80px; width: auto; font-size: 12px; font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; }
 		/* End read only section. To add additional styles, add a new style tag after this one. */</style>
 
 </head>
@@ -36,6 +38,8 @@
         
             <ni-string-control accepts-return='true' binding-info='{"accessMode": "writeOnly", "dataItem": "dataItem_Body", "dco": 0, "isLatched": false, "prop": "text", "sync": false, "unplacedOrDisabled": false}' control-resize-mode='fixed' escaped-display-mode='default' follower-ids='["18"]' label-alignment='top-left' label-id='18' ni-control-id='17' read-only='true' text=''></ni-string-control>
             <ni-label control-resize-mode='fixed' label-alignment='top-left' ni-control-id='18' text='body'></ni-label>
+            <ni-string-control accepts-return='true' binding-info='{"accessMode": "writeOnly", "dataItem": "dataItem_Headers", "dco": 1, "isLatched": false, "prop": "text", "sync": false, "unplacedOrDisabled": false}' control-resize-mode='fixed' escaped-display-mode='default' follower-ids='["20"]' label-alignment='top-left' label-id='20' ni-control-id='19' read-only='true' text=''></ni-string-control>
+            <ni-label control-resize-mode='fixed' label-alignment='top-left' ni-control-id='20' text='headers'></ni-label>
         </ni-front-panel>
     </div>
 </body>
